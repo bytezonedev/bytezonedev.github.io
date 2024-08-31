@@ -1,0 +1,19 @@
+{
+  "name": "bytezone",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "contributors": [
+    "Ryan McNeely",
+    "Cody Taylor"
+  ],
+  "license": "private",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
