@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+set -eEuo pipefail
+
+IMAGE_FILE="$1"
+
+imagemin --plugin=pngquant "$IMAGE_FILE" | sponge "$IMAGE_FILE"
