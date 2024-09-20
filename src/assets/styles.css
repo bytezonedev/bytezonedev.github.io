@@ -4,6 +4,17 @@
     --lilac: #9A91A1;
     --black-riasin: #201A23;
     --silver: #dedede;
+
+    /*   Text Size Scale    */
+
+    --text--2: clamp(0.64rem, 0.64rem + -0.01vw, 0.63rem);
+    --text--1: clamp(0.8rem, 0.79rem + 0.06vw, 0.84rem);
+    --text-0: clamp(1rem, 0.97rem + 0.17vw, 1.13rem);
+    --text-1: clamp(1.25rem, 1.18rem + 0.34vw, 1.5rem);
+    --text-2: clamp(1.56rem, 1.44rem + 0.59vw, 2rem);
+    --text-3: clamp(1.95rem, 1.76rem + 0.96vw, 2.66rem);
+    --text-4: clamp(2.44rem, 2.14rem + 1.51vw, 3.55rem);
+    --text-5: clamp(3.05rem, 2.6rem + 2.28vw, 4.74rem);
 }
 
 html {
@@ -11,6 +22,16 @@ html {
     background-color: var(--silver);
 }
 
-h1, h2, h3, h4, h5, .h1,.h2, .h3, .h4, .h5 {
-    font-family: Quantico;
+/*****************************************************************************/
+/*****************************************************************************/
+/*                                                                           */
+/*                              Utilities                                    */
+/*                                                                           */
+/*****************************************************************************/
+/*****************************************************************************/
+
+.container {
+    max-width: 1600px;
+    margin-inline: auto;
+    padding-inline: 1.25rem;
 }
