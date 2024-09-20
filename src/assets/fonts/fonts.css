@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Quantico;
+    src: url("./Quantico/Quantico-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Quantico Bold";
+    src: url("./Quantico/Quantico-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Urbanist";
+    src: url("./Urbanist/Urbanist-VariableFont_wght.ttf");
+}

@@ -1,0 +1,16 @@
+:root {
+    --green: #0F5257;
+    --golden: #FF870A;
+    --lilac: #9A91A1;
+    --black-riasin: #201A23;
+    --silver: #dedede;
+}
+
+html {
+    color: var(--black-riasin);
+    background-color: var(--silver);
+}
+
+h1, h2, h3, h4, h5, .h1,.h2, .h3, .h4, .h5 {
+    font-family: Quantico;
+}

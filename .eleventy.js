@@ -1,8 +1,10 @@
 export default function (eleventyConfig) {
-	return {
-		dir: {
-			input: "src",
-			output: "dist",
+    eleventyConfig.addPassthroughCopy("src/assets/**");
+
+    return {
+        dir: {
+            input: "src",
+            output: "dist",
 
 			includes: "_includes",
 			layout: "layouts"
