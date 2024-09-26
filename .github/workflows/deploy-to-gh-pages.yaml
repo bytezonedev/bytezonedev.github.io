@@ -4,7 +4,7 @@
       push:
         branches:
           - main
-      pull_request:
+      workflow_dispatch:
 
     jobs:
       Deploy:
@@ -33,4 +33,4 @@
 
           - name: Deploy
             uses: actions/deploy-pages@v4
-            
+
