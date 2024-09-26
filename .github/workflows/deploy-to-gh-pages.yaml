@@ -10,9 +10,8 @@
       Deploy:
         runs-on: ubuntu-24.04
         permissions:
-          # contents: read
           pages: write
-          id-token: write
+          id-token: write # Necessary for the OIDC requested token in deploy-pages action!
         concurrency:
           group: ${{ github.workflow }}-${{ github.ref }}
         steps:
@@ -24,21 +23,8 @@
               node-version: "20"
               cache: "npm"
 
-          # - name: Persist npm cache
-          #   uses: actions/cache@v3
-          #   with:
-          #     path: ~/.npm
-          #     key: ${{ runner.os }}-node-${{ hashFiles('**/package.json') }}
-
           - run: npm ci
           - run: npm run build
-
-          # - name: Deploy
-          #   uses: peaceiris/actions-gh-pages@v3
-          #   if: github.ref == 'refs/heads/main'
-          #   with:
-          #     github_token: ${{ secrets.GITHUB_TOKEN }}
-          #     publish_dir: ./dist
 
           - name: Upload GitHub Pages artifact
             uses: actions/upload-pages-artifact@v3.0.1
