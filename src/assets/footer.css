@@ -1,0 +1,22 @@
+footer {
+    background-color: var(--black-riasin);
+    color: var(--silver);
+
+    width: 100vw;
+    padding-block: 3rem;
+
+    position: absolute;
+    bottom: 0;
+
+
+    .container {
+        display: flex;
+        gap: 2rem;
+        flex-flow: column wrap;
+    }
+
+    a[type=email] {
+       color: var(--silver);
+       text-decoration: underline; 
+    }
+}
