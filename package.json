@@ -13,8 +13,8 @@
     "static-site"
   ],
   "contributors": [
-    "Ryan McNeely",
-    "Cody Taylor"
+    "Ryan McNeely <ryan@bytezone.dev>",
+    "Cody Taylor <cody@bytezone.dev>"
   ],
   "license": "private",
   "dependencies": {
