@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "eleventy",
-    "dev": "eleventy --serve",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "eleventy --serve"
   },
   "keywords": [
     "github-pages",
