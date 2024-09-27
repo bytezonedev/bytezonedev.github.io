@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 640 640" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <style bx:fonts="Quantico">@import url(https://fonts.googleapis.com/css2?family=Quantico%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700&amp;display=swap);</style>
+  </defs>
+  <rect style="fill-rule: nonzero; fill: rgb(154, 145, 161); stroke-width: 0px;" x="67.96" y="160.336" width="261.806" height="261.806" rx="16" ry="16"/>
+  <rect style="stroke: rgb(154, 145, 161); fill-rule: nonzero; fill: none; stroke-width: 12px;" x="104.491" y="196.867" width="261.806" height="261.806" rx="16" ry="16"/>
+  <path style="stroke: rgb(154, 145, 161); fill-rule: nonzero; fill: none; stroke-width: 6px;" d="M 366.298 377.725 L 494.3 377.725 C 501.024 377.725 506.477 383.177 506.477 389.902 L 506.477 429.477"/>
+  <ellipse style="stroke: rgb(154, 145, 161); fill: none; stroke-width: 6px;" cx="506.334" cy="440.132" rx="12.177" ry="12.177"/>
+  <path style="stroke: rgb(154, 145, 161); fill-rule: nonzero; fill: none; stroke-width: 6px; transform-box: fill-box; transform-origin: 50% 50%;" d="M 94.54 470.147 L 154.018 470.147 C 160.743 470.147 166.196 475.599 166.196 482.324 L 166.196 521.9" transform="matrix(0, 1, -1, 0, 0.000034, 0.000035)"/>
+  <ellipse style="stroke: rgb(154, 145, 161); fill: none; stroke-width: 6px; transform-box: fill-box; transform-origin: 50% 50%;" cx="91.878" cy="531.268" rx="12.177" ry="12.177"/>
+  <path style="stroke: rgb(154, 145, 161); fill-rule: nonzero; fill: none; stroke-width: 6px; transform-origin: 334.333px 287.387px;" d="M 504.565 313.263 L 565.697 313.263 C 572.421 313.263 577.874 307.811 577.874 301.086 L 577.874 261.51" transform="matrix(0, 1, -1, 0, -0.000001, 0.000031)"/>
+  <ellipse style="stroke: rgb(154, 145, 161); fill: none; stroke-width: 6px; transform-origin: 370.864px -528.645px;" cx="370.864" cy="-531.281" rx="12.177" ry="12.177" transform="matrix(1, 0, 0, -1, 0, 1057.290649)"/>
+  <path style="stroke: rgb(154, 145, 161); fill-rule: nonzero; fill: none; stroke-width: 6px; transform-box: fill-box; transform-origin: 50% 50%;" d="M 276.492 163.38 L 393.363 163.38 C 400.087 163.38 405.54 157.928 405.54 151.203 L 405.54 111.628" transform="matrix(-1, 0, 0, -1, 0.000015, 0)"/>
+  <ellipse style="stroke: rgb(154, 145, 161); fill: none; stroke-width: 6px;" cx="419" cy="112.2" rx="12.177" ry="12.177"/>
+  <text style="fill: rgb(255, 135, 10); font-family: Quantico; font-size: 152.2px; letter-spacing: -3px; white-space: pre;" x="387" y="343.606">BZ</text>
+  <ellipse style="stroke: rgb(154, 145, 161); fill: none; stroke-width: 6px; transform-origin: 192.703px -531.351px;" cx="192.714" cy="-531.28" rx="12.177" ry="12.177" transform="matrix(1, 0, 0, -1, 0, 1062.702393)"/>
+  <path style="stroke: rgb(154, 145, 161); fill-rule: nonzero; fill: none; stroke-width: 6px; transform-origin: 213.844px 287.728px;" d="M 268.881 460.602 L 268.881 520.907"/>
+  <ellipse style="stroke: rgb(154, 145, 161); fill: none; stroke-width: 6px; transform-origin: 438.879px 509.432px;" cx="437.063" cy="509.504" rx="12.177" ry="12.177" transform="matrix(0, 1, 1, 0, -170.069153, 23.652237)"/>
+  <path style="stroke: rgb(154, 145, 161); fill-rule: nonzero; stroke-width: 4px; fill: none; transform-origin: 175.487px 287.728px;" d="M 230.524 458.949 L 230.524 520.907"/>
+  <ellipse style="stroke: rgb(154, 145, 161); fill: none; stroke-width: 6px; transform-origin: 230.97px -531.351px;" cx="230.676" cy="-531.279" rx="12.177" ry="12.177" transform="matrix(1, 0, 0, -1, 0, 1062.701782)"/>
+  <path style="stroke: rgb(154, 145, 161); fill-rule: nonzero; fill: none; stroke-width: 6px; transform-origin: 101.004px 356.129px;" d="M 226.627 382.005 L 332.368 382.005 C 339.093 382.005 344.545 376.553 344.545 369.828 L 344.545 330.253" transform="matrix(0, -1, 1, 0, 0.000022, -0.000019)"/>
+  <ellipse style="stroke: rgb(154, 145, 161); fill: none; stroke-width: 6px; transform-origin: 64.473px -114.871px;" cx="64.916" cy="-112.236" rx="12.177" ry="12.177" transform="matrix(1, 0, 0, -1, 0, 229.742584)"/>
+  <path style="stroke: rgb(154, 145, 161); fill-rule: nonzero; fill: none; stroke-width: 6px; transform-origin: 233.21px 185.407px;" d="M 242.853 123 L 242.853 228.74"/>
+  <ellipse style="stroke: rgb(154, 145, 161); fill: none; stroke-width: 6px; transform-origin: 242.634px -112.248px;" cx="242.644" cy="-112.177" rx="12.177" ry="12.177" transform="matrix(1, 0, 0, -1, 0, 224.496002)"/>
+  <path style="stroke: rgb(154, 145, 161); fill-rule: nonzero; fill: none; stroke-width: 6px; transform-origin: 111.862px -4.439px;" d="M 166.899 123 L 166.899 228.74"/>
+  <ellipse style="stroke: rgb(154, 145, 161); fill: none; stroke-width: 6px; transform-origin: 166.527px -110.432px;" cx="166.442" cy="-112.238" rx="12.177" ry="12.177" transform="matrix(1, 0, 0, -1, 0, 220.863617)"/>
+  <path style="stroke: rgb(154, 145, 161); fill-rule: nonzero; fill: none; stroke-width: 6px; transform-origin: 149.915px -4.439px;" d="M 204.952 123 L 204.952 228.74"/>
+  <ellipse style="stroke: rgb(154, 145, 161); fill: none; stroke-width: 6px; transform-origin: 204.581px -110.432px;" cx="204.952" cy="-112.238" rx="12.177" ry="12.177" transform="matrix(1, 0, 0, -1, 0, 220.863617)"/>
+  <path style="stroke: rgb(154, 145, 161); fill-rule: nonzero; fill: none; stroke-width: 6px; transform-origin: 175.791px 287.728px;" d="M 230.828 458.949 L 230.828 520.907"/>
+  <path style="stroke: rgb(154, 145, 161); fill-rule: nonzero; fill: none; stroke-width: 6px; transform-origin: 137.738px 287.728px;" d="M 192.775 458.949 L 192.775 520.907"/>
+</svg>
