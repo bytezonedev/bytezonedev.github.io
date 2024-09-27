@@ -2,8 +2,11 @@
     --green: #0F5257;
     --golden: #FF870A;
     --lilac: #9A91A1;
-    --black-riasin: #201A23;
+    --black-raisin: #201A23;
     --silver: #dedede;
+
+    --darker-gold: color-mix(in srgb, var(--black-raisin) 75%, var(--golden));
+    --lighter-gold: color-mix(in srgb, var(--silver) 60%, var(--golden));
 
     /*   Text Size Scale    */
 
@@ -20,6 +23,12 @@
 html {
     color: var(--black-riasin);
     background-color: var(--silver);
+}
+
+body {
+    overflow: scroll;
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
 }
 
 /*****************************************************************************/
