@@ -45,3 +45,34 @@ body {
     margin-inline: auto;
     padding-inline: 1.25rem;
 }
+
+/***********************************************************/
+/*                                                         */
+/*                                                         */
+/*                  UTILITY CLASSES                        */
+/*                                                         */
+/*                                                         */
+/***********************************************************/
+/***********************************************************/
+
+
+/***
+ * The following utilities are adapted from https://every-layout.dev
+ */
+
+/* The Stack
+-----------------------------------------------------------------------*/
+.stack {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    --space: 1.5rem;
+  }
+  
+  .stack >  * + * {
+    margin-block-start: var(--space, 1.5rem);
+  }
+  
+  .stack:only-child {
+    block-size: 100%;
+  }
