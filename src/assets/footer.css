@@ -1,22 +1,19 @@
 footer {
-    background-color: var(--black-riasin);
+    background-color: var(--black-raisin);
     color: var(--silver);
 
     width: 100vw;
     padding-block: 3rem;
 
-    position: absolute;
-    bottom: 0;
-
-
     .container {
         display: flex;
         gap: 2rem;
-        flex-flow: column wrap;
+        flex-flow: row wrap;
+        justify-content: space-between;
     }
 
-    a[type=email] {
-       color: var(--silver);
+    a.email {
+       /* color: var(--silver); */
        text-decoration: underline; 
     }
 }

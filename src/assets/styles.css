@@ -2,8 +2,11 @@
     --green: #0F5257;
     --golden: #FF870A;
     --lilac: #9A91A1;
-    --black-riasin: #201A23;
+    --black-raisin: #201A23;
     --silver: #dedede;
+
+    --darker-gold: color-mix(in srgb, var(--black-raisin) 75%, var(--golden));
+    --lighter-gold: color-mix(in srgb, var(--silver) 60%, var(--golden));
 
     /*   Text Size Scale    */
 
@@ -18,8 +21,15 @@
 }
 
 html {
-    color: var(--black-riasin);
+    color: var(--black-raisin);
     background-color: var(--silver);
+}
+
+body {
+    overflow: scroll;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
 }
 
 /*****************************************************************************/
@@ -35,3 +45,34 @@ html {
     margin-inline: auto;
     padding-inline: 1.25rem;
 }
+
+/***********************************************************/
+/*                                                         */
+/*                                                         */
+/*                  UTILITY CLASSES                        */
+/*                                                         */
+/*                                                         */
+/***********************************************************/
+/***********************************************************/
+
+
+/***
+ * The following utilities are adapted from https://every-layout.dev
+ */
+
+/* The Stack
+-----------------------------------------------------------------------*/
+.stack {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    --space: 1.5rem;
+  }
+  
+  .stack >  * + * {
+    margin-block-start: var(--space, 1.5rem);
+  }
+  
+  .stack:only-child {
+    block-size: 100%;
+  }

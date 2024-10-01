@@ -18,5 +18,8 @@
   "license": "private",
   "dependencies": {
     "@11ty/eleventy": "^3.0.0-beta.1"
+  },
+  "devDependencies": {
+    "eleventy-plugin-gen-favicons": "^1.1.3"
   }
 }
