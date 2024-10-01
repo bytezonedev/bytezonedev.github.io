@@ -7,7 +7,7 @@ title: "ByteZone Dev"
 
 ## Come hire us!
 
-Here at ByteZone we're a developement firm focused on building exceptional solutions so you can focus on your business.
+Here at ByteZone we're a development firm focused on building exceptional solutions so you can focus on your business.
 
 
 <!-- <img src="/dist/assets/images/circuit-board.jpg" /> -->
