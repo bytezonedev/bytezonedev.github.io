@@ -77,11 +77,11 @@ body {
 }
 
 .hero-text-container {
-  background-image: url("images/circuit-board.jpg");
-  background-size: cover;
-  background-position-y: 63%;
-  /* border-image: fill 0 linear-gradient(#ffffff25, var(--black-raisin)); */
-  border-image: fill 0 linear-gradient(#57575780, var(--black-raisin));
-  color: #ffffffda;
-  text-shadow: 0.333rem 0.333rem 0.333rem var(--darker-gold);
+	background-image: url("images/circuit-board.jpg");
+	background-size: cover;
+	background-position-y: 63%;
+	/* border-image: fill 0 linear-gradient(#ffffff25, var(--black-raisin)); */
+	border-image: fill 0 linear-gradient(#5757576a, var(--black-raisin));
+	color: #ffffffb7;
+	text-shadow: 0.333rem 0.333rem 0.333rem var(--darker-gold);
 }
