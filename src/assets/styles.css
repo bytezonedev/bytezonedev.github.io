@@ -76,11 +76,12 @@ body {
 	block-size: 100%;
 }
 
-.stack h1:first-of-type {
-	background-image: url("images/circuit-board.jpg");
-	background-size: cover;
-	background-position-y: 63%;
-	border-image: fill 0 linear-gradient(#ffffff25, var(--black-raisin));
-	color: #ffffffda;
-	text-shadow: 0.167rem 0.125rem 0.167rem var(--darker-gold);
+.hero-text-container {
+  background-image: url("images/circuit-board.jpg");
+  background-size: cover;
+  background-position-y: 63%;
+  /* border-image: fill 0 linear-gradient(#ffffff25, var(--black-raisin)); */
+  border-image: fill 0 linear-gradient(#57575780, var(--black-raisin));
+  color: #ffffffda;
+  text-shadow: 0.333rem 0.333rem 0.333rem var(--darker-gold);
 }

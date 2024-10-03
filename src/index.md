@@ -3,7 +3,9 @@ layout: layouts/page.html
 title: "ByteZone Dev"
 ---
 
-# ByteZone Dev
+<div class="hero-text-container">
+ <h1>ByteZone Dev<h1>
+</div>
 
 ## Come hire us!
 
