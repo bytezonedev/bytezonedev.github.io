@@ -1,5 +1,5 @@
 ---
-layout: layouts/page.html
+layout: layouts/homepage.html
 title: "ByteZone Dev"
 ---
 
