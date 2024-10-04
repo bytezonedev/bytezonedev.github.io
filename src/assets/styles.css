@@ -96,12 +96,7 @@ body {
 }
 
 .tty-broken-link {
-	animation: 2s steps(2, jump-none) infinite blinking;
 	background-color: #000000;
 	color: #ef5051;
 	font-weight: bold;
-}
-
-@keyframes blinking {
-	50% { opacity: 67%; }
 }
