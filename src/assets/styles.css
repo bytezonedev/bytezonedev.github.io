@@ -109,3 +109,15 @@ body {
 	color: #ef5051;
 	font-weight: bold;
 }
+
+.tty-cursor {
+	animation: 2.4s steps(2, jump-none) infinite cursor-blink;
+	text-decoration: underline;
+	text-decoration-thickness: 0.3125rem;
+	text-underline-offset: 0;
+	user-select: none;
+}
+
+@keyframes cursor-blink {
+	50% { opacity: 33%; }
+}
