@@ -2,7 +2,6 @@ footer {
 	background-color: var(--black-raisin);
 	color: var(--silver);
 
-	width: 100vw;
 	padding-block: 3rem;
 
 	.container {
