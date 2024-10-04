@@ -86,6 +86,13 @@ body {
 	padding-top: 1rem;
 	padding-inline-start: 1ch;
 	padding-inline-end: 1ch;
+
+	a[href] {
+		color: var(--silver);
+		text-decoration: underline;
+		text-decoration-thickness: 1px;
+		text-underline-offset: 0.125rem;
+	}
 }
 
 .tty-username {
