@@ -83,10 +83,10 @@ body {
 	background-color: #222222e9;
 	color: #f2f2f2;
 	min-width: 80ch;
-	padding-bottom: 1rem;
+	padding-bottom: 0.75rem;
 	padding-top: 1rem;
-	padding-inline-start: 1ch;
-	padding-inline-end: 1ch;
+	padding-inline-start: 0.75ch;
+	padding-inline-end: 1.25ch;
 
 	a[href] {
 		color: var(--silver);
@@ -112,6 +112,7 @@ body {
 
 .tty-cursor {
 	animation: 2.4s steps(2, jump-none) infinite cursor-blink;
+	filter: drop-shadow(0 0 1px var(--silver));
 	text-decoration: underline;
 	text-decoration-thickness: 0.3125rem;
 	text-underline-offset: 0;
