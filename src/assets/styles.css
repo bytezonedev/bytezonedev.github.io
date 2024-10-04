@@ -1,35 +1,35 @@
 :root {
-    --green: #0F5257;
-    --golden: #FF870A;
-    --lilac: #9A91A1;
-    --black-raisin: #201A23;
-    --silver: #dedede;
+	--green: #0f5257;
+	--golden: #ff870a;
+	--lilac: #9a91a1;
+	--black-raisin: #201a23;
+	--silver: #dedede;
 
-    --darker-gold: color-mix(in srgb, var(--black-raisin) 75%, var(--golden));
-    --lighter-gold: color-mix(in srgb, var(--silver) 60%, var(--golden));
+	--darker-gold: color-mix(in srgb, var(--black-raisin) 75%, var(--golden));
+	--lighter-gold: color-mix(in srgb, var(--silver) 60%, var(--golden));
 
-    /*   Text Size Scale    */
+	/*   Text Size Scale    */
 
-    --text--2: clamp(0.64rem, 0.64rem + -0.01vw, 0.63rem);
-    --text--1: clamp(0.8rem, 0.79rem + 0.06vw, 0.84rem);
-    --text-0: clamp(1rem, 0.97rem + 0.17vw, 1.13rem);
-    --text-1: clamp(1.25rem, 1.18rem + 0.34vw, 1.5rem);
-    --text-2: clamp(1.56rem, 1.44rem + 0.59vw, 2rem);
-    --text-3: clamp(1.95rem, 1.76rem + 0.96vw, 2.66rem);
-    --text-4: clamp(2.44rem, 2.14rem + 1.51vw, 3.55rem);
-    --text-5: clamp(3.05rem, 2.6rem + 2.28vw, 4.74rem);
+	--text--2: clamp(0.64rem, 0.64rem + -0.01vw, 0.63rem);
+	--text--1: clamp(0.8rem, 0.79rem + 0.06vw, 0.84rem);
+	--text-0: clamp(1rem, 0.97rem + 0.17vw, 1.13rem);
+	--text-1: clamp(1.25rem, 1.18rem + 0.34vw, 1.5rem);
+	--text-2: clamp(1.56rem, 1.44rem + 0.59vw, 2rem);
+	--text-3: clamp(1.95rem, 1.76rem + 0.96vw, 2.66rem);
+	--text-4: clamp(2.44rem, 2.14rem + 1.51vw, 3.55rem);
+	--text-5: clamp(3.05rem, 2.6rem + 2.28vw, 4.74rem);
 }
 
 html {
-    color: var(--black-raisin);
-    background-color: var(--silver);
+	color: var(--black-raisin);
+	background-color: var(--silver);
 }
 
 body {
-    overflow: scroll;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    min-height: 100vh;
+	overflow: scroll;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	min-height: 100vh;
 }
 
 /*****************************************************************************/
@@ -41,9 +41,9 @@ body {
 /*****************************************************************************/
 
 .container {
-    max-width: 1600px;
-    margin-inline: auto;
-    padding-inline: 1.25rem;
+	max-width: 1600px;
+	margin-inline: auto;
+	padding-inline: 1.25rem;
 }
 
 /***********************************************************/
@@ -55,7 +55,6 @@ body {
 /***********************************************************/
 /***********************************************************/
 
-
 /***
  * The following utilities are adapted from https://every-layout.dev
  */
@@ -63,16 +62,46 @@ body {
 /* The Stack
 -----------------------------------------------------------------------*/
 .stack {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    --space: 1.5rem;
-  }
-  
-  .stack >  * + * {
-    margin-block-start: var(--space, 1.5rem);
-  }
-  
-  .stack:only-child {
-    block-size: 100%;
-  }
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	--space: 1.5rem;
+}
+
+.stack > * + * {
+	margin-block-start: var(--space, 1.5rem);
+}
+
+.stack:only-child {
+	block-size: 100%;
+}
+
+/* For styling <code> elements like a terminal
+-----------------------------------------------------------------------*/
+.tty {
+	background-color: #222222e9;
+	color: #f2f2f2;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+	padding-inline-start: 1ch;
+	padding-inline-end: 1ch;
+}
+
+.tty-username {
+	color: #3465a4;
+}
+
+.tty-hostname {
+	color: #3465a4;
+}
+
+.tty-broken-link {
+	animation: 2s steps(2, jump-none) infinite blinking;
+	background-color: #000000;
+	color: #ef5051;
+	font-weight: bold;
+}
+
+@keyframes blinking {
+	50% { opacity: 67%; }
+}
