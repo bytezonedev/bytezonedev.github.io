@@ -82,6 +82,7 @@ body {
 .tty {
 	background-color: #222222e9;
 	color: #f2f2f2;
+	min-width: 80ch;
 	padding-bottom: 1rem;
 	padding-top: 1rem;
 	padding-inline-start: 1ch;
