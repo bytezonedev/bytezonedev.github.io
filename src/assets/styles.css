@@ -80,34 +80,62 @@ body {
 /* For styling <code> elements like a terminal
 -----------------------------------------------------------------------*/
 .tty {
-	background-color: #222222e9;
 	color: #f2f2f2;
 	min-width: 80ch;
-	padding-bottom: 0.75rem;
-	padding-top: 1rem;
-	padding-inline-start: 0.75ch;
-	padding-inline-end: 1.25ch;
 
-	a[href] {
-		color: var(--silver);
-		text-decoration: underline;
-		text-decoration-thickness: 1px;
-		text-underline-offset: 0.125rem;
-	}
+	border: 0.25rem solid grey;
+	border-radius: 0.25rem;
 }
 
-.tty-username {
-	color: #3465a4;
+.tty-title-bar {
+  background-color: grey;
+  background-color: #9d9d9d;
+  padding-inline-start: 1ch;
 }
 
-.tty-hostname {
-	color: #3465a4;
-}
+.tty-terminal {
+  background-color: #00242dc9;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  padding-inline-start: 1ch;
+  padding-inline-end: 1ch;
 
-.tty-broken-link {
-	background-color: #000000;
-	color: #ef5051;
-	font-weight: bold;
+  & a {
+    color: greenyellow;
+	/* color: var(--silver); */
+    text-decoration: underline;
+    text-decoration-style: dotted;
+	text-decoration-thickness: 0.125rem;
+  }
+
+  & .tty-active-selection {
+	color: greenyellow;
+  }
+  
+  & .tty-username {
+	  color: #3465a4;
+	  padding-inline-end: .25ch;
+  }
+
+  & .tty-hostname {
+	  color: #3465a4;
+	  padding-inline-start: 0.25ch
+  }
+
+  & .tty-broken-link {
+	  background-color: #000000;
+	  color: #ef5051;
+	  font-weight: bold;
+  }
+  
+  & .tty-bin {
+	color: greenyellow;
+  }
+
+  & .active-program a:not(.tty-active-selection) {
+	color: var(--silver);
+	text-decoration-line: none;
+  }
 }
 
 .tty-cursor {
@@ -119,6 +147,20 @@ body {
 	user-select: none;
 }
 
-@keyframes cursor-blink {
-	50% { opacity: 33%; }
+/* 
+.blinking-cursor {
+  visibility: visible;
+  animation: blinking-cursor 3s linear infinite 
+} */
+
+@keyframes blinking-cursor {
+  0% {
+    visibility: visible;
+  }
+  50% {
+   visibility: hidden;
+  }
+  100% {
+	visibility: hidden
+  }
 }
