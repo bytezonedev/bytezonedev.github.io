@@ -147,11 +147,11 @@ body {
 	user-select: none;
 }
 
-/* 
+
 .blinking-cursor {
   visibility: visible;
   animation: blinking-cursor 3s linear infinite 
-} */
+}
 
 @keyframes blinking-cursor {
   0% {
