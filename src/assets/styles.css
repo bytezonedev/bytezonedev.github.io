@@ -26,11 +26,11 @@ html {
 }
 
 body {
-    overflow: scroll;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    min-height: 100vh;
-    min-height: 100svh;
+	overflow: scroll;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	min-height: 100vh;
+	min-height: 100svh;
 }
 
 /*****************************************************************************/
@@ -42,9 +42,9 @@ body {
 /*****************************************************************************/
 
 .container {
-    max-width: 100rem;
-    margin-inline: auto;
-    padding-inline: 1.25rem;
+	max-width: 100rem;
+	margin-inline: auto;
+	padding-inline: 1.25rem;
 }
 
 /***********************************************************/
@@ -90,45 +90,45 @@ body {
 }
 
 .tty-title-bar {
-  background-color: grey;
-  background-color: #9d9d9d;
-  display: flex;
-  justify-content: space-between;
-  padding-inline-start: 1ch;
-  padding-inline-end: 1ch;
-  user-select: none;
+	background-color: grey;
+	background-color: #9d9d9d;
+	display: flex;
+	justify-content: space-between;
+	padding-inline-start: 1ch;
+	padding-inline-end: 1ch;
+	user-select: none;
 }
 
 .tty-terminal {
-  background-color: #00242dc9;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
-  padding-inline-start: 1ch;
-  padding-inline-end: 1ch;
+	background-color: #00242dc9;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+	padding-inline-start: 1ch;
+	padding-inline-end: 1ch;
 
-  & a[href] {
-    color: greenyellow;
-	/* color: var(--silver); */
-    text-decoration: underline;
-    text-decoration-style: dotted;
-	text-decoration-thickness: 0.125rem;
-  }
+	& a[href] {
+		color: greenyellow;
+		/* color: var(--silver); */
+		text-decoration: underline;
+		text-decoration-style: dotted;
+		text-decoration-thickness: 0.125rem;
+	}
 
-  & .tty-username {
-	  color: #3465a4;
-	  padding-inline-end: .25ch;
-  }
+	& .tty-username {
+		color: #3465a4;
+		padding-inline-end: 0.25ch;
+	}
 
-  & .tty-hostname {
-	  color: #3465a4;
-	  padding-inline-start: 0.25ch
-  }
+	& .tty-hostname {
+		color: #3465a4;
+		padding-inline-start: 0.25ch;
+	}
 
-  & .tty-broken-link {
-	  background-color: #000000;
-	  color: #ef5051;
-	  font-weight: bold;
-  }
+	& .tty-broken-link {
+		background-color: #000000;
+		color: #ef5051;
+		font-weight: bold;
+	}
 }
 
 .tty-cursor {
@@ -141,7 +141,9 @@ body {
 }
 
 @keyframes cursor-blink {
-	50% { opacity: 33%; }
+	50% {
+		opacity: 33%;
+	}
 }
 
 .git-diff-hunk-header {
