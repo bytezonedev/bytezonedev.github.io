@@ -166,9 +166,9 @@ body {
 
 .git-diff-add-line::before {
 	content: "+";
-	color: #4e9a06;
+	color: #8dd946;
 }
 
 .git-diff-add-line {
-	color: #4e9a06;
+	color: #8dd946;
 }
