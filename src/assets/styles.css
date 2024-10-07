@@ -87,6 +87,8 @@ body {
 	border-radius: 0.25rem;
 
 	margin-bottom: 2rem;
+
+	/* animation: var(--animation-shake-z) forwards; */
 }
 
 .tty-title-bar {
@@ -101,18 +103,23 @@ body {
 }
 
 .tty-terminal {
-	background-color: #00242dc9;
+	background-color: #00242dc0;
 	padding-bottom: 1rem;
 	padding-top: 1rem;
 	padding-inline-start: 1ch;
 	padding-inline-end: 1ch;
 
-	& a[href] {
+	& a {
+		display: inline-block;
 		color: greenyellow;
 		/* color: var(--silver); */
 		text-decoration: underline;
 		text-decoration-style: dotted;
 		text-decoration-thickness: 0.125rem;
+		
+		&:hover,&:focus,&:focus-visible,&:target {
+			animation: var(--animation-shake-z);
+		}
 	}
 
 	& .tty-username {
