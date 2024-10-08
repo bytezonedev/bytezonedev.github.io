@@ -12,3 +12,8 @@
     font-family: "Urbanist";
     src: url("./Urbanist/Urbanist-VariableFont_wght.ttf");
 }
+
+@font-face {
+    font-family: "Cascadia Mono";
+    src: url("./CascadiaCode/CascadiaMono.ttf");
+}

@@ -103,7 +103,7 @@ body {
 }
 
 .tty-terminal {
-	background-color: #00242dc0;
+	background-color: #00242dea;
 	padding-bottom: 1rem;
 	padding-top: 1rem;
 	padding-inline-start: 1ch;
@@ -124,12 +124,16 @@ body {
 
 	& .tty-username {
 		color: #3465a4;
+		color: var(--lilac);
+		color: #06aeb1;
+		color: #d8b4dd;
 		padding-inline-end: 0.25ch;
 	}
 
 	& .tty-hostname {
 		color: #3465a4;
 		padding-inline-start: 0.25ch;
+		color: #d8b4dd
 	}
 
 	& .tty-broken-link {
@@ -165,10 +169,12 @@ body {
 .git-diff-remove-line::before {
 	content: "-";
 	color: red;
+	color: #f96b6b;
 }
 
 .git-diff-remove-line {
 	color: red;
+	color: #f96b6b;
 }
 
 .git-diff-add-line::before {
