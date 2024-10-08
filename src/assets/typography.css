@@ -8,6 +8,10 @@ body, p {
     line-height: 1rem;
 }
 
+code {
+    font-family: "Cascadia Mono";
+}
+
 /*** Typeface ***/
 html {font-size: 100%;}
 
