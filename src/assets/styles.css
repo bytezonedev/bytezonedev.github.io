@@ -92,7 +92,6 @@ body {
 }
 
 .tty-title-bar {
-	background-color: grey;
 	background-color: #9d9d9d;
 	color: #2f2f2f;
 	display: flex;
@@ -112,28 +111,26 @@ body {
 	& a {
 		display: inline-block;
 		color: greenyellow;
-		/* color: var(--silver); */
 		text-decoration: underline;
 		text-decoration-style: dotted;
 		text-decoration-thickness: 0.125rem;
-		
-		&:hover,&:focus,&:focus-visible,&:target {
+
+		&:hover,
+		&:focus,
+		&:focus-visible,
+		&:target {
 			animation: var(--animation-shake-z);
 		}
 	}
 
 	& .tty-username {
-		color: #3465a4;
-		color: var(--lilac);
-		color: #06aeb1;
-		color: #d8b4dd;
+		color: #06dfbb;
 		padding-inline-end: 0.25ch;
 	}
 
 	& .tty-hostname {
-		color: #3465a4;
+		color: #06dfbb;
 		padding-inline-start: 0.25ch;
-		color: #d8b4dd
 	}
 
 	& .tty-broken-link {
@@ -168,12 +165,10 @@ body {
 
 .git-diff-remove-line::before {
 	content: "-";
-	color: red;
 	color: #f96b6b;
 }
 
 .git-diff-remove-line {
-	color: red;
 	color: #f96b6b;
 }
 
