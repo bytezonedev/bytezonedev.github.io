@@ -30,6 +30,7 @@ body {
 	display: grid;
 	grid-template-rows: auto 1fr auto;
 	min-height: 100vh;
+	min-height: 100svh;
 }
 
 /*****************************************************************************/
@@ -41,7 +42,7 @@ body {
 /*****************************************************************************/
 
 .container {
-	max-width: 1600px;
+	max-width: 100rem;
 	margin-inline: auto;
 	padding-inline: 1.25rem;
 }
@@ -84,4 +85,108 @@ body {
 	border-image: fill 0 linear-gradient(#5757576a, var(--black-raisin));
 	color: #ffffffb7;
 	text-shadow: 0.333rem 0.333rem 0.333rem var(--darker-gold);
+}
+
+/* For styling <code> elements like a terminal
+-----------------------------------------------------------------------*/
+.tty {
+	color: #f2f2f2;
+	min-width: 80ch;
+
+	border: 0.25rem solid grey;
+	border-radius: 0.25rem;
+
+	margin-bottom: 2rem;
+
+	/* animation: var(--animation-shake-z) forwards; */
+}
+
+.tty-title-bar {
+	background-color: #9d9d9d;
+	color: #2f2f2f;
+	display: flex;
+	justify-content: space-between;
+	padding-inline-start: 1ch;
+	padding-inline-end: 1ch;
+	user-select: none;
+}
+
+.tty-terminal {
+	background-color: #00242dea;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+	padding-inline-start: 1ch;
+	padding-inline-end: 1ch;
+
+	& a {
+		display: inline-block;
+		color: greenyellow;
+		text-decoration: underline;
+		text-decoration-style: dotted;
+		text-decoration-thickness: 0.125rem;
+
+		&:hover,
+		&:focus,
+		&:focus-visible,
+		&:target {
+			animation: var(--animation-shake-z);
+		}
+	}
+
+	& .tty-username {
+		color: #06dfbb;
+		padding-inline-end: 0.25ch;
+	}
+
+	& .tty-hostname {
+		color: #06dfbb;
+		padding-inline-start: 0.25ch;
+	}
+
+	& .tty-broken-link {
+		background-color: #000000;
+		color: #ef5051;
+		font-weight: bold;
+	}
+}
+
+.tty-cursor {
+	animation: 2.4s steps(2, jump-none) infinite cursor-blink;
+	filter: drop-shadow(0 0 1px var(--silver));
+	text-decoration: underline;
+	text-decoration-thickness: 0.3125rem;
+	text-underline-offset: 0;
+	user-select: none;
+}
+
+@keyframes cursor-blink {
+	50% {
+		opacity: 33%;
+	}
+}
+
+.git-diff-hunk-header {
+	color: skyblue;
+}
+
+.git-diff-context-line::before {
+	content: " ";
+}
+
+.git-diff-remove-line::before {
+	content: "-";
+	color: #f96b6b;
+}
+
+.git-diff-remove-line {
+	color: #f96b6b;
+}
+
+.git-diff-add-line::before {
+	content: "+";
+	color: #8dd946;
+}
+
+.git-diff-add-line {
+	color: #8dd946;
 }
